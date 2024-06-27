@@ -265,15 +265,10 @@ if ($_POST) {
       //$update2=mysqli_query($conn,"UPDATE `accounts` SET `plan`='$investmentplan' WHERE `user_id`='$id'");
       if ($update) {
         $_SESSION['user_id'] = $id;
-
         $path = 'auth.php';
-
         $nextstep = $path;
-
-
-        header("Location: $nextstep");
-
-
+        echo "<script>window.location.href = '$nextstep';</script>";
+        exit();
 
         $subject = "Account created successfully";
         $message = " <p>Your account at Falcon Pay has successfully been created.</p>
