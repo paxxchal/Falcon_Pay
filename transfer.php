@@ -13,7 +13,7 @@ $user_id = $_SESSION['user_id'];
       <div class="card  mb-4">
         <div class="card-header d-flex justify-content-between align-items-center">
 
-          <h5 class="mb-0 ">Available balance : $<?php echo $rem_bal; ?></h5><br />
+          <h5 class="mb-0 ">Available balance : ₦<?php echo $rem_bal; ?></h5><br />
 
 
 
@@ -178,7 +178,7 @@ $user_id = $_SESSION['user_id'];
               <!--<td  class="text-white">Beneficiary Bank: <span id="modal-bank"></span></td>-->
               <!--</tr>-->
               <tr>
-                <td class="text-white">Amount: $<span id="modal-amount"></span></td>
+                <td class="text-white">Amount: ₦<span id="modal-amount"></span></td>
               </tr>
               <!--<tr>-->
               <!--<td  class="text-white">Routing Number: <span id="modal-route"></span></td>-->
@@ -205,7 +205,7 @@ if ($_POST) {
       $mail =  mysqli_real_escape_string($conn, $_POST['tf']);
       $amount = mysqli_real_escape_string($conn, $_POST['amount']);
       $currency = mysqli_real_escape_string($conn, $_POST['currency']);
-      $description = "new transfer of $$amount to ";
+      $description = "new transfer of ₦$amount to ";
 
 
       $_SESSION['mail'] = $mail;
