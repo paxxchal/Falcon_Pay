@@ -1641,15 +1641,15 @@ require "header.php";
         <div class="wrap-transfer mb-5">
             <div class="tf-container">
 
-                <a href="transfer" class="action-sheet-transfer">
+                <a href="transfer.php" class="action-sheet-transfer">
                     <div class="icon"><i class="icon-friends"></i></div>
                     <div class="content">
                         <h4 class="fw_6 text-white">Transfer to the same bank</h4>
-                        <p class="text-white">Free, Transfer to another account on our platform</p>
+                        <p class="text-white">Free, Transfer to another account on Falcon Pay</p>
                     </div>
 
                 </a>
-                <a href="international-transfer" class="action-sheet-transfer">
+                <a href="" class="action-sheet-transfer">
                     <div class="icon"><i class="icon-bank2"></i></div>
                     <div class="content">
                         <h4 class="fw_6 text-white">Transfer to Bank</h4>

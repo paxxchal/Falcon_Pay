@@ -120,7 +120,7 @@ $user_id = $_SESSION['user_id'];
               <div class="input-group input-group-merge">
                 <span class="input-group-text"><i class='bx bx-dollar-circle'></i></span>
                 <input type="number" name="amount" id="amount" class="form-control" placeholder="Amount" aria-label="Amount" aria-describedby="basic-icon-default-email2" required />
-                <span id="basic-icon-default-email2" class="input-group-text">USD</span>
+                <span id="basic-icon-default-email2" class="input-group-text">NGN</span>
               </div>
             </div>
 
