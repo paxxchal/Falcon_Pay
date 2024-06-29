@@ -137,7 +137,7 @@ require "header.php";
                 success: function(data) {
                   swal('Great', data, 'success')
                     .then(() => {
-                      location.replace('kyc')
+                      location.replace('kyc.php')
                     })
                 }
               })
