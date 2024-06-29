@@ -39,7 +39,7 @@ require "header.php";
                     <div class="col-6 br-right">
                         <div class="inner-left">
                             <p>Your Balance:</p>
-                            <h6 class="text-white">$<?php echo number_format($rem_bal, 2); ?></h6>
+                            <h6 class="text-white">₦<?php echo number_format($rem_bal, 2); ?></h6>
                         </div>
                     </div>
                     <div class="col-6">
