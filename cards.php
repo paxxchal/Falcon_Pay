@@ -370,14 +370,14 @@ require "header.php"
             }
 
             ?>
-            <div class="my-2 p-4 m-4">
+            <!--<div class="my-2 p-4 m-4">
                 <center>
                     <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#new-card">
                         Create Card +
                     </button>
                 </center>
 
-            </div>
+            </div>-->
         <?php
         } else {
         ?>
@@ -420,14 +420,14 @@ require "header.php"
                     </div>
                 </div>
             </div>
-            <div class="my-2">
+            <!--<div class="my-2">
                 <center>
                     <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#new-card">
                         Create Card +
                     </button>
                 </center>
 
-            </div>
+            </div>-->
         <?php
         }
         ?>
