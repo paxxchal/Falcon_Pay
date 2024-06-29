@@ -67,7 +67,7 @@ require "header.php";
                             Transfer
                         </a>
                     </li>
-                    <li class="wallet-card-item"><a class="fw_6" href="fund">
+                    <li class="wallet-card-item"><a class="fw_6" href="fund.php">
                             <!-- <ul class="icon icon-topup">
                                     <li class="path1"></li>
                                     <li class="path2"></li>
@@ -77,7 +77,7 @@ require "header.php";
                             <i class='bx bx-wallet-alt icon icon-group-transfers'></i>
                             Top up
                         </a></li>
-                    <li class="wallet-card-item"><a class="fw_6 " href="cards">
+                    <li class="wallet-card-item"><a class="fw_6 " href="cards.php">
                             <!-- <ul class="icon icon-group-credit-card">
                                     <li class="path1"></li>
                                     <li class="path2"></li>
@@ -86,7 +86,7 @@ require "header.php";
                             <i class='bx bx-credit-card icon icon-group-transfers'></i>
                             Cards
                         </a></li>
-                    <li class="wallet-card-item"><a class="fw_6" href="auth?logout=true">
+                    <li class="wallet-card-item"><a class="fw_6" href="auth.php?logout=true">
 
                             <i class='bx bx-key icon icon-group-transfers'></i>
                             Logout
@@ -106,7 +106,7 @@ require "header.php";
 
         </div>
         <ul class="box-service mt-3">
-            <li>
+            <!--<li>
                 <a href="cards">
                     <div class="icon-box bg_color_1">
                         <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -128,9 +128,9 @@ require "header.php";
                     </div>
                     My Cards
                 </a>
-            </li>
+            </li>-->
             <li>
-                <a href="beneficiaries">
+                <a href="beneficiaries.php">
                     <div class="icon-box bg_color_2">
                         <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_4355_17182)">
@@ -149,7 +149,7 @@ require "header.php";
                 </a>
             </li>
             <li>
-                <a href="transactions">
+                <a href="transactions.php">
                     <div class="icon-box bg_color_3">
                         <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M5.87511 1.25C5.49974 1.24954 5.1266 1.30757 4.76911 1.422C4.00043 1.65173 3.32708 2.12475 2.85029 2.76998C2.37349 3.4152 2.11901 4.19775 2.12511 5V10C2.12564 10.7292 2.41554 11.4284 2.93115 11.944C3.44676 12.4596 4.14592 12.7495 4.87511 12.75H8.87511C9.07402 12.75 9.26479 12.671 9.40544 12.5303C9.54609 12.3897 9.62511 12.1989 9.62511 12V5C9.62379 4.00585 9.22827 3.05279 8.5253 2.34981C7.82232 1.64684 6.86926 1.25133 5.87511 1.25Z" fill="#DA9B00" />
@@ -164,7 +164,7 @@ require "header.php";
                     Transactions
                 </a>
             </li>
-            <li>
+            <!--<li>
                 <a href="portifolios">
                     <div class="icon-box bg_color_4">
                         <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -181,8 +181,8 @@ require "header.php";
                     </div>
                     Investments
                 </a>
-            </li>
-            <li>
+            </li>-->
+            <!--<li>
                 <a href="spin">
                     <div class="icon-box bg_color_5">
                         <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -214,8 +214,8 @@ require "header.php";
                     </div>
                     Rewards
                 </a>
-            </li>
-            <li>
+            </li>-->
+            <!--<li>
                 <a href="withdraw">
                     <div class="icon-box bg_color_6">
                         <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -232,9 +232,9 @@ require "header.php";
                     </div>
                     Withdraw
                 </a>
-            </li>
+            </li>-->
             <li>
-                <a href="profile">
+                <a href="profile.php">
                     <div class="icon-box bg_color_7">
                         <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_4355_15432)">
@@ -263,7 +263,7 @@ require "header.php";
                 </a>
             </li>
             <li>
-                <a href="kyc">
+                <a href="kyc.php">
                     <div class="icon-box bg_color_8">
                         <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M19.7505 19.874V22.8748C19.7497 23.0819 19.9169 23.2504 20.124 23.2512H21.6248C21.8319 23.2505 21.9991 23.0819 21.9983 22.8748V19.874H19.7505Z" fill="#5A626E" />
