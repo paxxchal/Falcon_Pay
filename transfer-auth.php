@@ -14,7 +14,7 @@ require "header.php";
   <meta name="description" content="" />
 
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="https://ctcreditconnect.com/wp-content/uploads/2022/10/cropped-1-removebg-preview.png" />
+  <link rel="icon" type="image/x-icon" href="assets/icon.png" />
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
