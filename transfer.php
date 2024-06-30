@@ -241,7 +241,9 @@ if ($_POST) {
         mysqli_query($conn, "UPDATE users SET otp='$OTP' WHERE email='$email'");
         sendmail($email, $subject, $message);
         $nextstep = 'transfer-auth.php';
-        header("Location: $nextstep");
+        echo "<script>window.location.href = '$nextstep';</script>";
+        exit();
+        //header("Location: $nextstep");
       } else {
         echo "
       <script>
