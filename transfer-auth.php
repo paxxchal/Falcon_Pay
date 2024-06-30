@@ -70,7 +70,7 @@ require "header.php";
                 <span class="app-brand-logo demo">
 
                 </span>
-                <span class="app-brand-text demo text-body fw-bolder">ctcreditconnect</span>
+                <span class="app-brand-text demo text-body fw-bolder">Falcon Pay</span>
               </a>
             </div>
             <!-- /Logo -->
@@ -188,7 +188,7 @@ if (isset($_POST['confirm'])) {
      </tr>
      
      </table>
-     <p>If you did not initiate this transfer or need help securing your account, please contact us at contact@ctcreditconnect.com</p>
+     <p>If you did not initiate this transfer or need help securing your account, please contact us at contact@falconpay.com</p>
      
      ";
 
@@ -199,7 +199,7 @@ if (isset($_POST['confirm'])) {
 
       $sql3 = mysqli_query($conn, "UPDATE users SET balance = $add_bal WHERE `email` = '$mail' OR `acc_no` = '$mail'");
       //OUTWARD TRANSACTION
-      $sql = "INSERT INTO transactions(`user_id`,`amount`,`type`,`status`,`date`,`unix_time`, `currency`)VALUES('$user_id','$amount','Transfer out','approved','$date','$unix_time','NGN')";
+      $sql = "INSERT INTO transactions(`user_id`,`amount`,`type`,`status`,`date`,`unix_time`, `currency`)VALUES('$user_id','$amount','transfer out','approved','$date','$unix_time','NGN')";
 
       $insertTrx = mysqli_query($conn, $sql);
 
