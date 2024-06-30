@@ -199,7 +199,7 @@ if (isset($_POST['confirm'])) {
 
       $sql3 = mysqli_query($conn, "UPDATE users SET balance = $add_bal WHERE `email` = '$mail' OR `acc_no` = '$mail'");
       //OUTWARD TRANSACTION
-      $sql = "INSERT INTO transactions(`user_id`,`amount`,`type`,`status`,`date`,`unix_time`, `currency`)VALUES('$user_id','$amount','Transfer out','approved','$date','$unix_time','USD')";
+      $sql = "INSERT INTO transactions(`user_id`,`amount`,`type`,`status`,`date`,`unix_time`, `currency`)VALUES('$user_id','$amount','Transfer out','approved','$date','$unix_time','NGN')";
 
       $insertTrx = mysqli_query($conn, $sql);
 
