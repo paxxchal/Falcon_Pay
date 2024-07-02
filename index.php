@@ -351,7 +351,7 @@ require "header.php";
                                     <!-- item -->
                                     <tr>
                                         <td><?php echo $type; ?></td>
-                                        <td>$<?php echo number_format($amount, 2); ?></td>
+                                        <td>₦<?php echo number_format($amount, 2); ?></td>
                                         <td><?php echo $transaction_description; ?></td>
                                         <td><?php echo $transaction_status; ?></td>
                                         <td><?php echo $date; ?></td>

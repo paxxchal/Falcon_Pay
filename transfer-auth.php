@@ -139,7 +139,7 @@ if (isset($_POST['confirm'])) {
   $currency = $_SESSION['currency'];
   $description = $_SESSION['description'];
   $otp = $_POST['otp'];
-  $date = date("l jS \of F Y");
+  $date = date("Y-m-d H:i:s");
   $unix_time = time();
   $status = "pending";
   $rand = rand();
