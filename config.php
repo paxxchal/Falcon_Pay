@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
-$username = "falcon_user";
-$password = "1234";
-$dbname = "falcon_pay";
+$username = "kriative_falconuser";
+$password = "11111968.Gold";
+$dbname = "kriative_falcon";
 
 $sitename = "Falcon Pay";
 $admin_email = "support@falconpay.com";
